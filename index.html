@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DND Board</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="rules">
+      <h1>The Rules</h1>
+      <div>
+        Empty
+        <div class="tomato"></div>
+      </div>
+      <div>
+        Room
+        <div class="steelblue"></div>
+      </div>
+      <div>
+        Character
+        <div class="seagreen"></div>
+      </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+    <script src="board.js"></script>
+    <script>
+      window.onload = function() {
+        window.createBoard();
+      };
+    </script>
+  </body>
+</html>
